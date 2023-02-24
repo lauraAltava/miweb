@@ -1,0 +1,104 @@
+/*Hoja de CSS creada por Laura */
+
+
+
+body {
+    background-image: url('Imagenes/pexieso.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+   
+}
+.formu {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.formu input {
+    width: 20%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+.formu button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+.formu label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+#titulo{
+    font-family: 'Nabla', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+div td {
+  background-color: white;
+}
+
+div caption{
+  font-family: 'Eater', cursive;
+  font-weight: 400;
+  font-size: x-large;
+  color: rgb(0, 0, 0);
+
+}
+
+#enlaceFormu{
+  font-family: 'Nabla', cursive;
+  font-weight: 400;
+}
+
+
+#linkArriba{
+  font-family: 'Faster One', cursive;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.parrafos{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: 400;
+
+}
+
+#atras{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: 400;
+  color: black;
+  font-size: 25px;
+}
+
+#tuexpa{
+  font-size: 33px;
+  font-weight: bolder;
+}

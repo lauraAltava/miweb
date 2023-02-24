@@ -1,0 +1,170 @@
+/*Hoja de CSS creada por Laura */
+
+
+
+body{
+    background-color: rgb(2, 58, 226);
+    background-image: url('Imagenes/lichito.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+#contenedor {
+    margin:0 auto;
+    width:1400px;
+}
+
+#contenedor header{
+    margin:0 auto;
+    margin-bottom: 55px;
+}
+
+
+
+header{
+    font-weight: 400;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 85px;
+    background-image: url('Imagenes/dali.jpg');
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 155px;
+    margin-bottom: 20px;
+    margin-left: 155px; 
+    border-left: 8px solid black;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    
+}
+
+.parrafos{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(142, 9, 200);
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 155px;
+    border-left: 8px solid black;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    position: relative;
+    right: 155px;
+    width: 600px;
+    float: left;
+    background-color: white;
+
+
+}
+
+#gif{
+    justify-content: center;
+    float:left;
+
+}
+
+#enlaceFormu{
+    font-family: 'Nabla', cursive;
+    font-weight: 400;
+}
+
+#contenedor table{
+    
+    justify-content: center;
+    margin-top: 255px;
+}
+
+#listaRoles{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(228, 100, 142);
+    float:left;
+    margin-right: 55px;
+    background-color: white;
+    border-left: 8px solid black;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    width: 360px;  
+    margin-bottom: 300px;
+    position: relative;
+    left: 248px;
+    
+   
+   
+}
+
+#listaRoles h2{
+    text-align: center;
+    font-size: 34px;
+}
+
+#listaClases h2{
+    text-align: center;
+    font-size: 34px;
+}
+
+#listaClases{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(228, 100, 142);
+    float: left;
+    background-color: white;
+    border-left: 8px solid black;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    width: 360px;
+    margin-bottom: 500px;
+    position:relative;
+    left:248px;
+   
+    
+    
+}
+
+#linkArriba{
+    font-family: 'Just Me Again Down Here', cursive;
+    font-weight: 400;
+    font-size: xx-large;
+    color: chartreuse;
+    float: left;
+}
+
+div caption{
+    font-family: 'Eater', cursive;
+    font-weight: 400;
+    font-size: x-large;
+    color: rgb(151, 209, 15);
+
+}
+div td {
+    background-color: white;
+}
+
+div th{
+    background-color: white;
+
+}
+
+#pie { 
+    background-color:#bbb;
+    clear:both;
+    color:#900;
+    padding:10px;
+    text-align:center;
+  }
+
+#pie{
+    background-image: url('Imagenes/625f1abcebb34633e300dfee.png');
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    color: black;
+    font-size: 32px;
+
+
+}
