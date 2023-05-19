@@ -1,37 +1,40 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
- La parte fija del fichero xml correspondiente a un rss 
--->
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-<channel>
-<title>El nombre de nuestro feed RSS</title>
-<link>Dirección web en la que se encuentre nuestro RSS</link>
-<description>Contenido que vamos a ofrecer a los usuarios</description>
-<!-- La parte fija opcional -->
-<language>es-ES</language>
-<image>
-<title>Título de la Imagen</title>
-<url>http://www.mipagina.com/logotipo-del-rss.png</url>
-<link>http://www.mipagina.com</link>
-<width>90</width>
-<height>36</height>
-</image>
-<!--
- La parte variable, la que corresponde a cada noticia o ítem 
--->
-<item>
-<title>Título del primer artículo del RSS</title>
-<link>
-Dirección Web a la que podemos ir para ampliar esta información
-</link>
-<description>Contenido de esta información</description>
-</item>
-<item>
-<title>Título del segundo artículo del RSS</title>
-<link>
-Dirección Web a la que podemos ir para ampliar esta información
-</link>
-<description>Contenido de esta información</description>
-</item>
-</channel>
+  <channel>
+    <title>WoW NeWs</title>
+    <link>https://github.com/lauraAltava/miweb/blob/main/noticia1.rss</link>
+    <description>Noticias del World Of Warcraft</description>
+    <language>es-ES</language>
+    <image>
+      <title>icono rss</title>
+      <url>http://www.mipagina.com/logotipo-del-rss.png</url>
+      <link>http://www.mipagina.com/mypage.html</link>
+      <width>90</width>
+      <height>36</height>
+    </image>
+
+    <!-- Noticia 1 -->
+    <item>
+      <title>Nueva expansión anunciada: "Rise of the Shadowlands"</title>
+      <link>https://www.ejemplo.com/noticia1</link>
+      <description>Blizzard Entertainment ha revelado la próxima expansión de World of Warcraft, "Rise of the Shadowlands". Explora un reino oscuro y enigmático, enfrenta a poderosos enemigos y desvela secretos perdidos.</description>
+    </item>
+
+    <!-- Noticia 2 -->
+    <item>
+      <title>Lanzamiento del parche 9.3: "Echoes of Oblivion"</title>
+      <link>https://www.ejemplo.com/noticia2</link>
+      <description>El parche 9.3 de World of Warcraft, "Echoes of Oblivion", ya está disponible. Prepárate para enfrentar desafiantes nuevas mazmorras, descubre una historia épica y obtén poderosas recompensas en tu lucha contra el mal.</description>
+    </item>
+
+    <!-- Noticia 3 -->
+    <item>
+      <title>Evento especial de temporada: Festival de la Luna Brillante</title>
+      <link>https://www.ejemplo.com/noticia3</link>
+      <description>Celebra el Festival de la Luna Brillante en World of Warcraft. Únete a las festividades, completa misiones especiales y disfruta de increíbles recompensas durante este evento único y lleno de magia.</description>
+    </item>
+
+    <!-- Agrega más noticias como items -->
+
+  </channel>
 </rss>
