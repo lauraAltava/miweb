@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>WoW NeWs</title>
+    <link>https://github.com/lauraAltava/miweb/blob/main/noticia1.xml</link>
+    <description>Noticias del World Of Warcraft</description>
+    <language>es-ES</language>
+    <image>
+      <title>icono rss</title>
+      <url>http://www.mipagina.com/logotipo-del-rss.png</url>
+      <link>http://www.mipagina.com/mypage.html</link>
+      <width>90</width>
+      <height>36</height>
+    </image>
+
+    <!-- Noticia 1 -->
+    <item>
+      <title>Millones de jugadores chinos han perdido acceso a World of Warcraft</title>
+      <link>https://vandal.elespanol.com/noticia/1350759739/millones-de-jugadores-chinos-han-perdido-acceso-a-world-of-warcraft/</link>
+      <description>La ruptura entre Blizzard y NetEase se cumplió hace unos días, y la comunidad del país ya no puede jugar a Diablo 3, Hearthstone y otros juegos de la editora.</description>
+    </item>
+
+    <!-- Noticia 2 -->
+    <item>
+      <title>World of Warcraft: Dragonflight presenta su cinemática de lanzamiento</title>
+      <link>https://vandal.elespanol.com/noticia/1350758063/world-of-warcraft-dragonflight-presenta-su-cinematica-de-lanzamiento/</link>
+      <description>La nueva expansión trae una nueva clase de héroe, el Dragonriding, un sistema de talentos más complejo y otras mejoras que estarán listas el 28 de noviembre.</description>
+    </item>
+
+    <!-- Noticia 3 -->
+    <item>
+      <title>World of Warcraft Dragonflight: Todo lo que necesitas saber de la nueva expansión de WoW</title>
+      <link>https://vandal.elespanol.com/noticia/1350757842/world-of-warcraft-dragonflight-todo-lo-que-necesitas-saber-de-la-nueva-expansion-de-wow/</link>
+      <description>Dragonflight, la próxima gran expansión de World of Warcraft, introducirá nueva raza y clase, nueva zona del mapa, cambios en la interfaz y muchas otras novedades. Se lanzará el 28 de noviembre.</description>
+    </item>
+
+    <!-- Agrega más noticias como items -->
+
+  </channel>
+</rss>
